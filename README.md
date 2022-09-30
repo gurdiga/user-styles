@@ -18,3 +18,5 @@ I use this JS snippet with Tampermonkey® extension to load the style through js
     console.log('Added user-style', link);
 })();
 ```
+
+NOTE: It will not work on websites with good Content Security Policy.
