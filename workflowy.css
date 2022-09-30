@@ -1,0 +1,48 @@
+/* DOMAINS: workflowy.com */
+
+[stylish-theme="dark"] {
+    background-color: #35363a !important;
+}
+
+[stylish-theme="dark"] #app .header {
+    background-color: #35363a !important;
+}
+
+[stylish-theme="dark"],
+[stylish-theme="dark"] #app .header,
+[stylish-theme="dark"] #app .bullet {
+    color: #ccc;
+}
+
+#app {
+    font-family: Bookerly, Merriweather !important;
+}
+
+#app .page {
+    width: 35em !important;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+}
+
+#app .project {
+    margin-bottom: 4px;
+}
+
+#app .project .bullet {
+    top: 6px;
+}
+
+#app .selected.project>.notes .content {
+    color: inherit !important;
+}
+
+/* spacer below the bullet list */
+#app ._1vs75eu {
+    height: 75vh !important;
+}
+
+#app .project:not(.selected) .name .content {
+    min-height: 20px;
+	line-height: 20px;
+}

@@ -1,0 +1,37 @@
+/* REGEX: ^https://www.google.com/search.* */
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,400i,700,700i');
+
+/* Keep the reply form growing out of the viewport when content asks for it. */
+table.aoP.HM {
+    max-width: 800px;
+    overflow: visible;
+}
+
+/* hide the right side-bar */
+[style="width: 56px; min-width: 56px;"] {
+    min-width: 0 !important;
+    overflow: hidden;
+    width: 0 !important;
+}
+
+/* message list */
+.aeF {
+    min-height: 100vh !important;
+}
+
+
+/* Message body */
+.a3s.aiL {
+    max-width: 785px;
+}
+
+/* Message details */
+
+/* [data-message-id] img,  */
+[data-message-id] table,
+.a3s.aXjCH  {
+    max-width: 552px !important;
+    height: auto; /* This is to keep it proportional to the width. */
+    overflow: visible !important;
+}
