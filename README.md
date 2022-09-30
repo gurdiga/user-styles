@@ -1,2 +1,20 @@
 # user-styles
+
 Styles I use to customize websites.
+
+I use this JS snippet with Tampermonkey® extension to load the style through jsDelivr:
+
+```js
+(function() {
+    'use strict';
+
+    var link = document.createElement('link');
+
+    link.rel = 'stylesheet';
+    link.href = 'https://cdn.jsdelivr.net/gh/gurdiga/user-styles@main/workflowy.css'
+
+    document.head.appendChild(link);
+
+    console.log('Added user-style', link);
+})();
+```
