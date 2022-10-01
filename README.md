@@ -8,33 +8,23 @@ I use this [Tampermonkey®][1] snippet to load the a CSS file from this repo thr
 [1]: https://www.tampermonkey.net/
 
 ```js
+// ==UserScript==
+// @name         Victoriabank user-style
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://web.vb24.md/wb/
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=vb24.md
+// @grant        GM_addElement
+// ==/UserScript==
+
 (function() {
     'use strict';
 
-    const link = document.createElement('link');
-
-    link.rel = 'stylesheet';
-    link.href = 'https://cdn.jsdelivr.net/gh/gurdiga/user-styles@main/workflowy.css'
-
-    document.head.appendChild(link);
-
-    console.log('Added user-style', link);
+    GM_addElement('link', {
+        href: 'https://cdn.jsdelivr.net/gh/gurdiga/user-styles@main/web.vb24.md.css',
+        rel: 'stylesheet'
+    });
 })();
-```
-
-**NOTE**: This ☝️ approach will not work on websites with good [Content Security Policy][2]. For some of those cases, inlining the CSS code in the Tampermonkey snippet might work:
-
-[2]: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
-
-```js
-    const style = document.createElement('style');
-
-    style.textContent = `
-.block__bank-offers,
-.block__banner-carousel {
-    display: none !important;
-}
-    `;
-
-    document.head.appendChild(style);
 ```
