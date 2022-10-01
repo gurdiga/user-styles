@@ -27,6 +27,6 @@ I use this [Tampermonkey®][1] snippet to load the corresponding CSS file from t
         rel: 'stylesheet'
     });
 
-    console.log('User-style loaded');
+    console.log('User-style added');
 })();
 ```
