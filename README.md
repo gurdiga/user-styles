@@ -2,7 +2,7 @@
 
 Styles I use to customize various websites and web apps.
 
-I use this [Tampermonkey®][1] snippet to load the a CSS file from this repo through [jsDelivr][0]:
+I use this [Tampermonkey®][1] snippet to load the corresponding CSS file from this repo through [jsDelivr][0]:
 
 [0]: https://www.jsdelivr.com/
 [1]: https://www.tampermonkey.net/
