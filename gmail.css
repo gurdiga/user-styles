@@ -35,3 +35,28 @@ table.aoP.HM {
     height: auto; /* This is to keep it proportional to the width. */
     overflow: visible !important;
 }
+
+/* Abraham-Hicks newsletter */
+div[style*="background-color:#69c7c5"],
+div[style*="background-color:#69c7c5"] table,
+div[style*="background-color:#69c7c5"] td,
+div[style*="background-color:#69c7c5"] hr,
+div[style*="background-color:#69c7c5"] center {
+    padding: 0 !important;
+    text-align: left !important;
+    border-width: 0 !important;
+    background-color: transparent !important;
+}
+
+div[style*="background-color:#69c7c5"] *[style*="font-family:"] {
+    font-family: Alegreya !important;
+    font-size: 14px !important;
+}
+
+div[style*="background-color:#69c7c5"] [id$="templatePreheader"],
+div[style*="background-color:#69c7c5"] [id$="templateHeader"],
+div[style*="background-color:#69c7c5"] [id$="templateFooter"],
+div[style*="background-color:#69c7c5"] [class*="bodyContainer"]>table:not(:first-of-type) {
+    display: none;
+}
+
