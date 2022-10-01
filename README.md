@@ -11,7 +11,7 @@ I use this [Tampermonkey®][1] snippet to load the a CSS file from this repo thr
 (function() {
     'use strict';
 
-    var link = document.createElement('link');
+    const link = document.createElement('link');
 
     link.rel = 'stylesheet';
     link.href = 'https://cdn.jsdelivr.net/gh/gurdiga/user-styles@main/workflowy.css'
