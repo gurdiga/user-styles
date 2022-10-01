@@ -12,7 +12,7 @@ I use this [Tampermonkey®][1] snippet to load the corresponding CSS file from t
 // @name         Victoriabank user-style
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
+// @description  None
 // @author       You
 // @match        https://web.vb24.md/wb/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=vb24.md
@@ -23,7 +23,7 @@ I use this [Tampermonkey®][1] snippet to load the corresponding CSS file from t
     'use strict';
 
     GM_addElement('link', {
-        href: 'https://cdn.jsdelivr.net/gh/gurdiga/user-styles@main/web.vb24.md.css',
+        href: 'https://cdn.jsdelivr.net/gh/gurdiga/user-styles@main/workflowy.css',
         rel: 'stylesheet'
     });
 })();
