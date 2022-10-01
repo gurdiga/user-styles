@@ -1,8 +1,11 @@
 # user-styles
 
-Styles I use to customize websites.
+Styles I use to customize various websites and web apps.
 
-I use this JS snippet with Tampermonkey® extension to load the style through jsDelivr:
+I use this [Tampermonkey®][1] snippet to load the a CSS file from this repo through [jsDelivr][0]:
+
+[0]: https://www.jsdelivr.com/
+[1]: https://www.tampermonkey.net/
 
 ```js
 (function() {
@@ -19,7 +22,9 @@ I use this JS snippet with Tampermonkey® extension to load the style through js
 })();
 ```
 
-NOTE: This ☝️ approach will not work on websites with good Content Security Policy. For some of those cases, inlining the CSS code in JS might work:
+**NOTE**: This ☝️ approach will not work on websites with good [Content Security Policy][2]. For some of those cases, inlining the CSS code in the Tampermonkey snippet might work:
+
+[2]: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
 
 ```js
     const style = document.createElement('style');
