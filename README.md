@@ -19,9 +19,7 @@ I use this JS snippet with Tampermonkey® extension to load the style through js
 })();
 ```
 
-NOTE: It will not work on websites with good Content Security Policy.
-
-For some of those cases, something like this might work:
+NOTE: This ☝️ approach will not work on websites with good Content Security Policy. For some of those cases, inlining the CSS code in JS might work:
 
 ```js
     const style = document.createElement('style');
