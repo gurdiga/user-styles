@@ -26,5 +26,7 @@ I use this [Tampermonkey®][1] snippet to load the corresponding CSS file from t
         href: 'https://cdn.jsdelivr.net/gh/gurdiga/user-styles@main/workflowy.css',
         rel: 'stylesheet'
     });
+
+    console.log('User-style loaded');
 })();
 ```
