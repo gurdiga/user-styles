@@ -2,6 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css?family=Alegreya:400,400i,700,700i');
 
+/*
+ * :not(:has(...)) below are usually exceptions
+ *
+ * - [style="background-color:#f8f8f8"] - Starnet payment confirmation
+ *
+ * */
+
 /* Keep the reply form growing out of the viewport when content asks for it. */
 table.aoP.HM {
     max-width: 800px;
@@ -22,14 +29,14 @@ table.aoP.HM {
 
 
 /* Message body */
-.a3s.aiL {
+.a3s.aiL:not(:has([style="background-color:#f8f8f8"])) {
     max-width: 785px;
 }
 
 /* Message details */
 
 /* [data-message-id] img,  */
-[data-message-id] table,
+[data-message-id]:not(:has([style="background-color:#f8f8f8"])) table,
 .a3s.aXjCH  {
     max-width: 552px !important;
     height: auto; /* This is to keep it proportional to the width. */
