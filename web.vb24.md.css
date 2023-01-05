@@ -1,3 +1,7 @@
+/* CSP on web.vb24 doesn’t allow injecting styles other than from self, so this
+ * is here just for versioning, and will be inserted manually in the
+ * Tampermonkey script. */
+
 .block__bank-offers,
 .block__banner-carousel {
     display: none !important;
