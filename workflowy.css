@@ -46,11 +46,11 @@
     background: transparent;
 }
 
-#app .page:not(:has(.board)) {
+#app .page:not(:has(>.board)) {
     width: 35em !important;
 }
 
-#app .page:has(.board) {
+#app .page:has(>.board) {
     margin-top: 0 !important;
 }
 
