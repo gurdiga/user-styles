@@ -41,10 +41,13 @@
 }
 
 #app .page {
-    width: 35em !important;
     margin-left: auto;
     margin-right: auto;
     background: transparent;
+}
+
+#app .page:not(:has(.board)) {
+    width: 35em !important;
 }
 
 #app .project {
