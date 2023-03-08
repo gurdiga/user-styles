@@ -62,11 +62,6 @@
     top: 6px;
 }
 
-/* spacer below the bullet list */
-#app ._1vs75eu {
-    height: 75vh !important;
-}
-
 #app .project:not(.selected) .name .content {
     min-height: 20px;
     line-height: 20px;
