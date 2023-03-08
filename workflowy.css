@@ -50,6 +50,10 @@
     width: 35em !important;
 }
 
+#app .page:has(.board) {
+    margin-top: 0 !important;
+}
+
 #app .project {
     margin-bottom: 4px;
 }
