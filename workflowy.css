@@ -70,3 +70,7 @@
 #app .project.checkmark a.bullet {
     opacity: 0;
 }
+
+#app .board .boardColumn {
+    flex-basis: 420px;
+}
