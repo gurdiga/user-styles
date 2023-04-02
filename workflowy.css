@@ -74,3 +74,11 @@
 #app .board .boardColumn {
     flex-basis: 420px;
 }
+
+#app .board .boardColumn {
+    flex-basis: 420px;
+}
+
+#app .header .breadcrumbs a:last-child {
+    text-overflow: ellipsis;
+}
