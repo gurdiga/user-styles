@@ -79,6 +79,6 @@
     flex-basis: 420px;
 }
 
-#app .header .breadcrumbs a:last-child {
+#app .header .breadcrumbs>a {
     text-overflow: ellipsis;
 }
