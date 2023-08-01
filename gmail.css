@@ -28,7 +28,7 @@ table.aoP.HM {
 
 /* Message body */
 .a3s.aiL:not(:has([style="background-color:#f8f8f8"])) {
-    max-width: 785px;
+    max-width: 35em;
 }
 
 /* Message details */
