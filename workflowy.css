@@ -58,8 +58,14 @@
     opacity: 0;
 }
 
-#app .project.open .children {
+/** dark mode */
+#app .project.open .children._8uzpmq {
     border-left-color: #42484b;
+}
+
+/** light mode */
+#app .project.open .children._1wbge1a {
+    border-left-color: #eceef0;
 }
 
 #app .board .boardColumn {
