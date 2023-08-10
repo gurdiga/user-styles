@@ -58,6 +58,10 @@
     opacity: 0;
 }
 
+#app .project.open .children {
+    border-left-color: #42484b;
+}
+
 #app .board .boardColumn {
     flex-basis: 420px;
 }
