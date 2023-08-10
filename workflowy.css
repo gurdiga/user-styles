@@ -22,20 +22,6 @@
     src: url(https://gurdiga.com/assets/bookerly/Bookerly-BoldItalic.ttf) format('truetype');
 }
 
-[stylish-theme="dark"] {
-    background-color: #35363a !important;
-}
-
-[stylish-theme="dark"] #app .header {
-    background-color: #35363a !important;
-}
-
-[stylish-theme="dark"],
-[stylish-theme="dark"] #app .header,
-[stylish-theme="dark"] #app .bullet {
-    color: #ccc;
-}
-
 #app {
     font-family: Bookerly, Merriweather !important;
     font-size: 15px;
