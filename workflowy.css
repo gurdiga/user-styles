@@ -25,11 +25,15 @@
 @media (prefers-color-scheme: dark) {
     body {
         background: #171717 !important;
-        color: #aaacad !important;
     }
 
-    .header {
+    #app .header {
         background: #282932 !important;
+    }
+
+    body,
+    #app .project .bullet {
+        color: #aaacad !important;
     }
 }
 
