@@ -35,6 +35,10 @@
     #app .project .bullet {
         color: #aaacad !important;
     }
+
+    #app .project .children {
+        border-left: #aaacad !important;
+    }
 }
 
 #app {
