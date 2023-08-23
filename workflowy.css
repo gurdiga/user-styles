@@ -24,11 +24,12 @@
 
 @media (prefers-color-scheme: dark) {
     body {
-        background: #232323 !important;
+        background: #171717 !important;
+        color: #aaacad !important;
     }
 
     .header {
-        background: #404144 !important;
+        background: #282932 !important;
     }
 }
 
