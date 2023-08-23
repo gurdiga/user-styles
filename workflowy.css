@@ -24,16 +24,16 @@
 
 @media (prefers-color-scheme: dark) {
     body {
-        background: #171717 !important;
+        background: #1f1f1e !important;
     }
 
     #app .header {
-        background: #1B1B1D !important;
+        background: #1d1e1f !important;
     }
 
     body,
     #app .project .bullet {
-        color: #D4D4D4 !important;
+        color: #dcdcdb !important;
     }
 }
 
