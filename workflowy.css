@@ -23,9 +23,13 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
-    background: #232323 !important;
-  }
+    body {
+        background: #232323 !important;
+    }
+
+    .header {
+        background: #464953 !important;
+    }
 }
 
 #app {
