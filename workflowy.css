@@ -35,11 +35,25 @@
     #app .project .bullet {
         color: #b9b9b6 !important;
     }
+
+    #app .project.open .children._8uzpmq {
+        border-left-color: #42484b;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    #app .project.open .children._1wbge1a {
+        border-left-color: #eceef0;
+    }
 }
 
 #app {
     font-family: Bookerly, Merriweather !important;
     font-size: 15px;
+}
+
+#app a {
+    color: #4baddf !important;
 }
 
 #app .page {
@@ -71,16 +85,6 @@
 
 #app .project.checkmark a.bullet {
     opacity: 0;
-}
-
-/** dark mode */
-#app .project.open .children._8uzpmq {
-    border-left-color: #42484b;
-}
-
-/** light mode */
-#app .project.open .children._1wbge1a {
-    border-left-color: #eceef0;
 }
 
 #app .board .boardColumn {
