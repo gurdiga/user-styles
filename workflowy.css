@@ -30,7 +30,11 @@
     body {
         background: #1f1f1e !important;
     }
-
+    
+    ::selection {
+      background-color: #8a764a !important;
+    }
+    
     #app .header {
         background: #1d1e1f !important;
     }
