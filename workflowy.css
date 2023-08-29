@@ -32,7 +32,8 @@
     }
     
     ::selection {
-      background-color: #8a764a !important;
+        background-color: #8a764a !important;
+        color: white;
     }
     
     #app .header {
