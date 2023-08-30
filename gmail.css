@@ -9,6 +9,10 @@
     font-size: 13px !important;
 }
 
+[style*="Fira Sans"][style*="color:#021608"] a {
+    text-decoration: underline;
+}
+
 /* FacileThings Blog Newsletter END */
 
 /*
