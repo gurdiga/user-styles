@@ -115,3 +115,7 @@
 #app .header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
 }
+
+#app .bullet+.prefix:has(svg) {
+    margin-left: -1.5em;
+}
