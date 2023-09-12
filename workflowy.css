@@ -87,6 +87,10 @@
     margin-bottom: 4px;
 }
 
+#app .project.references {
+    font-size: smaller;
+}
+
 #app .project .bullet {
     top: 6px;
 }
