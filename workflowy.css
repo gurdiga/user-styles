@@ -89,6 +89,7 @@
 
 #app .project.references {
     font-size: smaller;
+    opacity: 0.5;
 }
 
 #app .project .bullet {
