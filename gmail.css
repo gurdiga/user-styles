@@ -59,26 +59,26 @@ table.aoP.HM {
 }
 
 /* Abraham-Hicks newsletter */
-div[style*="background-color:#69c7c5"],
-div[style*="background-color:#69c7c5"] table,
-div[style*="background-color:#69c7c5"] td,
-div[style*="background-color:#69c7c5"] hr,
-div[style*="background-color:#69c7c5"] center {
+div[style*="background-color:#d1ebeb"],
+div[style*="background-color:#d1ebeb"] table,
+div[style*="background-color:#d1ebeb"] td,
+div[style*="background-color:#d1ebeb"] hr,
+div[style*="background-color:#d1ebeb"] center {
     padding: 0 !important;
     text-align: left !important;
     border-width: 0 !important;
     background-color: transparent !important;
 }
 
-div[style*="background-color:#69c7c5"] *[style*="font-family:"] {
+div[style*="background-color:#d1ebeb"] *[style*="font-family:"] {
     font-family: Alegreya !important;
     font-size: 14px !important;
 }
 
-div[style*="background-color:#69c7c5"] [id$="templatePreheader"],
-div[style*="background-color:#69c7c5"] [id$="templateHeader"],
-div[style*="background-color:#69c7c5"] [id$="templateFooter"],
-div[style*="background-color:#69c7c5"] [class*="bodyContainer"]>table:not(:first-of-type) {
+div[style*="background-color:#d1ebeb"] [id$="templatePreheader"],
+div[style*="background-color:#d1ebeb"] [id$="templateHeader"],
+div[style*="background-color:#d1ebeb"] [id$="templateFooter"],
+div[style*="background-color:#d1ebeb"] [class*="bodyContainer"]>table:not(:first-of-type) {
     display: none;
 }
 
