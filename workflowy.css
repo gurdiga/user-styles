@@ -76,7 +76,7 @@
 }
 
 #app .page:not(:has(>.board)) {
-    width: 35em !important;
+    max-width: 35em !important;
 }
 
 #app .page:has(>.board) {
