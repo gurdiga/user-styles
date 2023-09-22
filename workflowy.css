@@ -95,9 +95,21 @@
     top: 6px;
 }
 
+@media only screen and (max-width: 600px) {
+    #app .project .bullet {
+        top: 2px;
+    }
+}
+
 #app .project:not(.selected) .name .content {
     min-height: 20px;
     line-height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #app .project:not(.selected) .name .content {
+        font-size: 18px;
+    }
 }
 
 #app .project.checkmark a.bullet {
