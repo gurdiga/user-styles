@@ -67,6 +67,7 @@
 #app {
     font-family: Bookerly, Merriweather !important;
     font-variant-numeric: oldstyle-nums slashed-zero;
+    font-size: 17px;
 }
 
 #app .page {
@@ -103,13 +104,13 @@
 }
 
 #app .project:not(.selected) .name .content {
-    min-height: 20px;
-    line-height: 20px;
+    min-height: 1.5em;
+    line-height: 1.5;
 }
 
 @media only screen and (max-width: 600px) {
     #app .project:not(.selected) .name .content {
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 
