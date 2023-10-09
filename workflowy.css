@@ -66,6 +66,7 @@
 
 #app {
     font-family: Bookerly, Merriweather !important;
+    font-variant-numeric: oldstyle-nums slashed-zero;
 }
 
 #app .page {
