@@ -97,6 +97,10 @@
     top: 0.55em;
 }
 
+#app .project .itemMenu {
+    top: 0.4em;
+}
+
 @media only screen and (max-width: 600px) {
     #app .project .bullet {
         top: 2px;
