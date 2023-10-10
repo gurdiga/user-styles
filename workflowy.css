@@ -101,6 +101,10 @@
     top: 0.4em;
 }
 
+#app .project .expand {
+    top: 0.5em;
+}
+
 @media only screen and (max-width: 600px) {
     #app .project .bullet {
         top: 2px;
