@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap&text=0123456789');
+
 @font-face {
     font-family: 'Bookerly';
     src: url(https://gurdiga.com/assets/bookerly/Bookerly-Regular.ttf) format('truetype');
@@ -65,7 +67,7 @@
 }
 
 #app {
-    font-family: Bookerly, Merriweather !important;
+    font-family: Alegreya, Bookerly !important;
     font-variant-numeric: oldstyle-nums slashed-zero;
     font-size: 17px;
 }
