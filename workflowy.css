@@ -1,4 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap&text=0123456789');
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=4UaBrEBBsBhlBjvfkRLjza_B4ql-GzJ0DWIdyr2egA&skey=a67f3093e1ad2d69&v=v35) format('woff2');
+  size-adjust: 120%;
+}
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=4UaBrEBBsBhlBjvfkRLjza_B4ql-GzJ0DWIdyr2egA&skey=a67f3093e1ad2d69&v=v35) format('woff2');
+  size-adjust: 120%;
+}
 
 @font-face {
     font-family: 'Bookerly';
