@@ -1,3 +1,4 @@
-a:visited>div {
+a:visited>div,
+a:visited>div span {
   color: rgb(85, 26, 139) !important;
 }
