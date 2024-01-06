@@ -162,3 +162,8 @@
 #app .bullet+.prefix:has(svg) {
     margin-left: -1.4em;
 }
+
+/* date ”pills” */
+#app [startyear][startmonth][startday]>span.content-wrapper {
+  padding: 0 .8em .2em;
+}
