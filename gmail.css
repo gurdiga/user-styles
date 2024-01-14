@@ -54,6 +54,7 @@ table.aoP.HM {
 [data-message-id]:not(:has([style="background-color:#f8f8f8"])) table,
 .a3s.aXjCH  {
     max-width: 552px !important;
+    min-width: 0 !important;
     height: auto; /* This is to keep it proportional to the width. */
     overflow: visible !important;
 }
