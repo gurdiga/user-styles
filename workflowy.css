@@ -133,7 +133,7 @@
     line-height: 1.5;
 }
 
-#app .project.selected.noted .notes .content {
+#app .project.selected.noted>.notes .content {
     font-size: 17px;
     color: #b9b9b6;
 }
