@@ -133,6 +133,11 @@
     line-height: 1.5;
 }
 
+#app .project.selected.noted .notes .content {
+    font-size: 17px;
+    color: #b9b9b6;
+}
+
 @media only screen and (max-width: 600px) {
     #app .project:not(.selected) .name .content {
         font-size: 17px;
