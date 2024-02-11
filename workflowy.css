@@ -47,12 +47,12 @@
     body {
         background: #1f1f1e !important;
     }
-    
+
     ::selection {
         background-color: #8a764a !important;
         color: white;
     }
-    
+
     #app .header {
         background: #1d1e1f !important;
     }
@@ -65,7 +65,7 @@
     #app .project.open .children._8uzpmq {
         border-left-color: #42484b;
     }
-    
+
     #app a.contentLink[href^="https://workflowy.com"] {
         color: #76a9fa !important;
     }
@@ -136,6 +136,12 @@
 @media only screen and (max-width: 600px) {
     #app .project:not(.selected) .name .content {
         font-size: 17px;
+    }
+
+    #app .project.selected.noted .notes .content {
+        font-size: 17px;
+        line-height: 1.5;
+        color: var(--wf-text-primary);
     }
 }
 
