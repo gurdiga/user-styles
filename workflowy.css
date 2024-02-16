@@ -146,7 +146,6 @@
     #app .project.selected.noted .notes .content {
         font-size: 17px;
         line-height: 1.5;
-        color: var(--wf-text-primary);
     }
 }
 
