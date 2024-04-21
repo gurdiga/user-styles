@@ -39,10 +39,6 @@
     src: url(https://gurdiga.com/assets/bookerly/Bookerly-BoldItalic.ttf) format('truetype');
 }
 
-#app {
-  --user-styles-dark-text-color: #b9b9b6;
-}
-
 #app a.contentLink {
     color: #4baddf !important;
 }
@@ -62,11 +58,10 @@
     }
 
     body,
-    #app .project .bullet,
-    #app .project.selected.noted>.notes .content {
-        color: var(--user-styles-dark-text-color) !important;
+    #app .project .bullet {
+        color: #b9b9b6 !important;
     }
-  
+
     #app .project.open .children._8uzpmq {
         border-left-color: #42484b;
     }
@@ -144,6 +139,7 @@
 
 #app .project.selected.noted>.notes .content {
     font-size: 17px;
+    color: inherit;
 }
 
 @media only screen and (max-width: 600px) {
