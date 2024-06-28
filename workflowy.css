@@ -185,3 +185,7 @@
 #app [startyear][startmonth][startday]>span.content-wrapper {
   padding: 0 .8em .2em;
 }
+
+#app .commentHoverButton {
+    display: none;
+}
