@@ -53,7 +53,10 @@
         color: white;
     }
 
-    #app .header {
+    #app .header,
+    #app .MobileBreadcrumbs,
+    #app .pageContainer,
+    #app .hideForSheetView {
         background: #1d1e1f !important;
     }
 
