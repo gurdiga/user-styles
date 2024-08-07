@@ -185,10 +185,16 @@
 }
 
 /* date ”pills” */
+#app [startyear][startmonth][startday] {
+    margin: 0;
+}
+
 #app [startyear][startmonth][startday]>span.content-wrapper {
     background: transparent;
     text-decoration: underline;
-    color: inherit;
+    color: inherit !important;
+    font: inherit !important;
+    padding: 0;
 }
 
 #app .commentHoverButton {
