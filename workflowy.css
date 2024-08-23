@@ -191,7 +191,8 @@
 
 #app [startyear][startmonth][startday]>span.content-wrapper {
     background: transparent;
-    text-decoration: underline dotted;
+    text-decoration: underline;
+    text-decoration-style: dotted;
     color: inherit !important;
     font: inherit !important;
     padding: 0;
