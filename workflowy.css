@@ -65,6 +65,10 @@
         color: #b9b9b6 !important;
     }
 
+    #app .project.open .name {
+        margin-bottom: 4px;
+    }
+
     #app .project.open .children._8uzpmq {
         border-left-color: #42484b;
     }
