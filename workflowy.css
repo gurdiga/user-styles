@@ -43,6 +43,10 @@
     color: #4baddf !important;
 }
 
+#app .project.open>.name {
+    margin-bottom: 4px;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background: #1f1f1e !important;
@@ -63,10 +67,6 @@
     body,
     #app .project .bullet {
         color: #b9b9b6 !important;
-    }
-
-    #app .project.open .name {
-        margin-bottom: 4px;
     }
 
     #app .project.open .children._8uzpmq {
