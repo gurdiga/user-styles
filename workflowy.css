@@ -158,6 +158,10 @@
         font-size: 17px;
     }
 
+    #app .project:not(.selected).noted>.notes .content {
+        margin-top: 5px;
+    }
+
     #app .project.selected.noted>.notes .content {
         font-size: 17px;
         line-height: 1.5;
