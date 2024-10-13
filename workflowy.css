@@ -43,10 +43,6 @@
     color: #4baddf !important;
 }
 
-#app .project.open>.name {
-    margin-bottom: 4px;
-}
-
 @media (prefers-color-scheme: dark) {
     body {
         background: #1f1f1e !important;
