@@ -147,6 +147,10 @@
 #app .project.selected.noted>.notes .content {
     font-size: 17px;
     color: inherit;
+}
+
+#app .project.noted>.notes .content,
+#app .project.selected.noted>.notes .content {
     line-height: 1.7;
 }
 
@@ -159,6 +163,7 @@
         margin-top: 5px;
     }
 
+    #app .project.noted>.notes .content,
     #app .project.selected.noted>.notes .content {
         line-height: 1.8;
     }
