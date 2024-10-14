@@ -147,7 +147,7 @@
 #app .project.selected.noted>.notes .content {
     font-size: 17px;
     color: inherit;
-    line-height: normal;
+    line-height: 1.7;
 }
 
 @media only screen and (max-width: 600px) {
