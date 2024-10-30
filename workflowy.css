@@ -151,7 +151,7 @@
 
 #app .project.noted>.notes .content,
 #app .project.selected.noted>.notes .content {
-    line-height: 1.7;
+    line-height: normal;
 }
 
 @media only screen and (max-width: 600px) {
@@ -161,11 +161,6 @@
 
     #app .project:not(.selected).noted>.notes .content {
         margin-top: 5px;
-    }
-
-    #app .project.noted>.notes .content,
-    #app .project.selected.noted>.notes .content {
-        line-height: 1.8;
     }
 }
 
