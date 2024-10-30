@@ -158,10 +158,6 @@
     #app .project:not(.selected) .name .content {
         font-size: 17px;
     }
-
-    #app .project:not(.selected).noted>.notes .content {
-        margin-top: 5px;
-    }
 }
 
 #app .project.checkmark a.bullet {
