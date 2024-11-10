@@ -149,10 +149,16 @@
     color: inherit;
 }
 
-#app .project.noted>.notes .content,
-#app .project.selected.noted>.notes .content {
+#app .project.noted>.notes .content {
     line-height: normal;
+}
+
+#app .project:not(.selected).noted>.notes .content {
     height: 3ex;
+}
+
+#app .project.noted>.notes .content:focus {
+    height: auto;
 }
 
 @media only screen and (max-width: 600px) {
