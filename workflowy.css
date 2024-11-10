@@ -185,6 +185,13 @@
     margin-left: -1.4em;
 }
 
+@media only screen and (max-width: 600px) {
+    #app .bullet+.prefix:has(svg) {
+        margin-left: -1.6em;
+        margin-top: 0.25em;
+    }
+}
+
 /* date ”pills” */
 #app [startyear][startmonth][startday] {
     margin: 0;
