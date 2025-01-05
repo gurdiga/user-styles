@@ -215,3 +215,15 @@
 #app .commentHoverButton {
     display: none;
 }
+
+.item-checkbox {
+    margin-top: 3px;
+    margin-left: -1px;
+}
+
+@media only screen and (max-width: 600px) {
+    .item-checkbox {
+        margin-top: -6px;
+        margin-left: 2px;
+    }
+}
