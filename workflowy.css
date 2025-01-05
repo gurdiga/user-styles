@@ -221,6 +221,11 @@
     margin-left: -1px;
 }
 
+.item-checkbox.checked {
+    opacity: 1 !important;
+    color: #b1b3b5;
+}
+
 @media only screen and (max-width: 600px) {
     .item-checkbox {
         margin-top: -6px;
