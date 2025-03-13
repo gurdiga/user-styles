@@ -116,9 +116,10 @@
     margin-bottom: 4px;
 }
 
-#app .project.references {
+#app .project.references .innerContentContainer {
     font-size: smaller;
     opacity: 0.5;
+    text-transform: lowercase;
 }
 
 #app .project .bullet {
