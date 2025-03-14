@@ -147,6 +147,7 @@
 
 #app .project.selected.noted>.notes .content {
     color: inherit;
+    font-size: 17px;
 }
 
 #app .project.noted>.notes .content {
