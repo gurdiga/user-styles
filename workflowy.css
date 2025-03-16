@@ -147,7 +147,13 @@
 
 #app .project.selected.noted>.notes .content {
     color: inherit;
-    font-size: 17px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    #app .project.selected.noted>.notes .content {
+        font-size: 17px;
+    }
 }
 
 #app .project.noted>.notes .content {
