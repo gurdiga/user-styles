@@ -120,7 +120,7 @@
     align-items: center;
 }
 
-#app .project.references .innerContentContainer {
+#app .project.references>.name .innerContentContainer {
     font-size: smaller;
     opacity: 0.5;
     text-transform: lowercase;
