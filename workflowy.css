@@ -116,6 +116,10 @@
     margin-bottom: 4px;
 }
 
+#app .project.references .name .content {
+    align-items: center;
+}
+
 #app .project.references .innerContentContainer {
     font-size: smaller;
     opacity: 0.5;
