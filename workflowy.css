@@ -164,14 +164,6 @@
     line-height: normal;
 }
 
-#app .project:not(.selected).noted>.notes .content {
-    height: 3ex;
-}
-
-#app .project.noted>.notes .content:focus {
-    height: auto;
-}
-
 @media only screen and (max-width: 600px) {
     #app .project:not(.selected) .name .content {
         font-size: 17px;
