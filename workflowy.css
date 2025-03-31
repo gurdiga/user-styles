@@ -72,6 +72,10 @@
     #app a.contentLink[href^="https://workflowy.com"] {
         color: #76a9fa !important;
     }
+
+    b {
+        color: rgb(225, 225, 222); /* brighter than normal */
+    }
 }
 
 @media (prefers-color-scheme: light) {
