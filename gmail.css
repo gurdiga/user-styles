@@ -43,20 +43,9 @@ table.aoP.HM {
 
 
 /* Message body */
-.a3s.aiL:not(:has([style="background-color:#f8f8f8"])) {
+.a3s.aiL {
     max-width: 44em;
     overflow: visible;
-}
-
-/* Message details */
-
-/* [data-message-id] img,  */
-[data-message-id]:not(:has([style="background-color:#f8f8f8"])) table,
-.a3s.aXjCH  {
-    max-width: 552px !important;
-    min-width: 0 !important;
-    height: auto; /* This is to keep it proportional to the width. */
-    overflow: visible !important;
 }
 
 /* Abraham-Hicks newsletter */
