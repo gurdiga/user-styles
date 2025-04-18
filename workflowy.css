@@ -74,7 +74,7 @@
     }
 
     b {
-        color: rgb(225, 225, 222); /* brighter than normal */
+        filter: brightness(1.3);
     }
 }
 
