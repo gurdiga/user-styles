@@ -148,6 +148,10 @@
     }
 }
 
+#app .project:not(.selected).done .notes .content {
+    opacity: 0.5;
+}
+
 #app .project:not(.selected) .name .content {
     min-height: 1.5em;
     line-height: 1.5;
