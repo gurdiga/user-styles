@@ -19,14 +19,14 @@ I use this [Tampermonkey®][1] snippet to load the corresponding CSS file from t
 // @grant        GM_addElement
 // ==/UserScript==
 
-(function() {
-    'use strict';
+(function () {
+  "use strict";
 
-    GM_addElement('link', {
-        href: 'https://cdn.jsdelivr.net/gh/gurdiga/user-styles@main/workflowy.css',
-        rel: 'stylesheet'
-    });
+  GM_addElement("link", {
+    href: "https://cdn.jsdelivr.net/gh/gurdiga/user-styles@main/workflowy.css",
+    rel: "stylesheet",
+  });
 
-    console.log('User-style added');
+  console.log("User-style added");
 })();
 ```

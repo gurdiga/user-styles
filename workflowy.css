@@ -1,250 +1,252 @@
 @font-face {
-  font-family: 'Alegreya';
+  font-family: "Alegreya";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/l/font?kit=4UaBrEBBsBhlBjvfkRLjza_B4ql-GzJ0DWIdyr2egA&skey=a67f3093e1ad2d69&v=v35) format('woff2');
+  src: url(https://fonts.gstatic.com/l/font?kit=4UaBrEBBsBhlBjvfkRLjza_B4ql-GzJ0DWIdyr2egA&skey=a67f3093e1ad2d69&v=v35) format("woff2");
   size-adjust: 120%;
 }
 @font-face {
-  font-family: 'Alegreya';
+  font-family: "Alegreya";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/l/font?kit=4UaBrEBBsBhlBjvfkRLjza_B4ql-GzJ0DWIdyr2egA&skey=a67f3093e1ad2d69&v=v35) format('woff2');
+  src: url(https://fonts.gstatic.com/l/font?kit=4UaBrEBBsBhlBjvfkRLjza_B4ql-GzJ0DWIdyr2egA&skey=a67f3093e1ad2d69&v=v35) format("woff2");
   size-adjust: 120%;
 }
 
 @font-face {
-    font-family: 'Bookerly';
-    src: url(https://gurdiga.com/assets/bookerly/Bookerly-Regular.ttf) format('truetype');
+  font-family: "Bookerly";
+  src: url(https://gurdiga.com/assets/bookerly/Bookerly-Regular.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: 'Bookerly';
-    font-weight: bold;
-    src: url(https://gurdiga.com/assets/bookerly/Bookerly-Bold.ttf) format('truetype');
+  font-family: "Bookerly";
+  font-weight: bold;
+  src: url(https://gurdiga.com/assets/bookerly/Bookerly-Bold.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: 'Bookerly';
-    font-style: italic;
-    src: url(https://gurdiga.com/assets/bookerly/Bookerly-RegularItalic.ttf) format('truetype');
+  font-family: "Bookerly";
+  font-style: italic;
+  src: url(https://gurdiga.com/assets/bookerly/Bookerly-RegularItalic.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: 'Bookerly';
-    font-weight: bold;
-    font-style: italic;
-    src: url(https://gurdiga.com/assets/bookerly/Bookerly-BoldItalic.ttf) format('truetype');
+  font-family: "Bookerly";
+  font-weight: bold;
+  font-style: italic;
+  src: url(https://gurdiga.com/assets/bookerly/Bookerly-BoldItalic.ttf) format("truetype");
 }
 
 #app a.contentLink {
-    color: #4baddf !important;
+  color: #4baddf !important;
 }
 
 @media (prefers-color-scheme: dark) {
-    body {
-        background: #1f2020 !important;
-    }
+  body {
+    background: #1f2020 !important;
+  }
 
-    ::selection {
-        background-color: #8a764a !important;
-        color: white;
-    }
+  ::selection {
+    background-color: #8a764a !important;
+    color: white;
+  }
 
-    #app .header,
-    #app .MobileBreadcrumbs,
-    #app .pageContainer,
-    #app .hideForSheetView {
-        background: #1d1e1f !important;
-    }
+  #app .header,
+  #app .MobileBreadcrumbs,
+  #app .pageContainer,
+  #app .hideForSheetView {
+    background: #1d1e1f !important;
+  }
 
-    body,
-    #app .project .bullet {
-        color: #b9b9b6 !important;
-    }
+  body,
+  #app .project .bullet {
+    color: #b9b9b6 !important;
+  }
 
-    #app .project.open .children._8uzpmq {
-        border-left-color: #42484b;
-    }
+  #app .project.open .children._8uzpmq {
+    border-left-color: #42484b;
+  }
 
-    #app a.contentLink[href^="https://workflowy.com"] {
-        color: #76a9fa !important;
-    }
+  #app a.contentLink[href^="https://workflowy.com"]
+  {
+    color: #76a9fa !important;
+  }
 
-    b {
-        filter: brightness(1.3);
-    }
+  b {
+    filter: brightness(1.3);
+  }
 }
 
 @media (prefers-color-scheme: light) {
-    #app .project.open .children._1wbge1a {
-        border-left-color: #eceef0;
-    }
+  #app .project.open .children._1wbge1a {
+    border-left-color: #eceef0;
+  }
 
-    #app a.contentLink[href^="https://workflowy.com"] {
-        color: #1c64f2 !important;
-    }
+  #app a.contentLink[href^="https://workflowy.com"]
+  {
+    color: #1c64f2 !important;
+  }
 
-    #app .project.selected.noted>.notes .content {
-        color: var(--wf-text-primary);
-    }
+  #app .project.selected.noted > .notes .content {
+    color: var(--wf-text-primary);
+  }
 }
 
 #app {
-    font-family: Alegreya, Bookerly !important;
-    font-variant-numeric: oldstyle-nums slashed-zero;
-    font-size: 17px;
+  font-family: Alegreya, Bookerly !important;
+  font-variant-numeric: oldstyle-nums slashed-zero;
+  font-size: 17px;
 }
 
 #app .pageContainer {
-    background: transparent;
+  background: transparent;
 }
 
 #app .page {
-    margin-left: auto;
-    margin-right: auto;
-    background: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
 }
 
-#app .page:not(:has(>.board)) {
-    max-width: 35em !important;
+#app .page:not(:has(> .board)) {
+  max-width: 35em !important;
 }
 
-#app .page:has(>.board) {
-    margin-top: 0 !important;
+#app .page:has(> .board) {
+  margin-top: 0 !important;
 }
 
 #app .project {
-    margin-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 #app .project.references .name .content {
-    align-items: center;
+  align-items: center;
 }
 
-#app .project.references>.name .innerContentContainer {
-    font-size: smaller;
-    opacity: 0.5;
-    text-transform: lowercase;
+#app .project.references > .name .innerContentContainer {
+  font-size: smaller;
+  opacity: 0.5;
+  text-transform: lowercase;
 }
 
 #app .project .bullet {
-    top: 0.55em;
+  top: 0.55em;
 }
 
 #app .project .itemMenu {
-    top: 0.4em;
+  top: 0.4em;
 }
 
 #app .project .expand {
-    top: 0.5em;
+  top: 0.5em;
 }
 
 @media only screen and (max-width: 600px) {
-    #app .project .bullet {
-        top: 0.3em;
-    }
+  #app .project .bullet {
+    top: 0.3em;
+  }
 }
 
 #app .project:not(.selected).done .notes .content {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 #app .project:not(.selected) .name .content {
-    min-height: 1.5em;
-    line-height: 1.5;
+  min-height: 1.5em;
+  line-height: 1.5;
 }
 
-#app .project.selected.noted>.notes .content {
-    color: inherit;
-    font-size: 15px;
-}
-
-@media only screen and (max-width: 600px) {
-    #app .project.selected.noted>.notes .content {
-        font-size: 17px;
-    }
-}
-
-#app .project.noted>.notes .content {
-    line-height: normal;
-    height: auto;
+#app .project.selected.noted > .notes .content {
+  color: inherit;
+  font-size: 15px;
 }
 
 @media only screen and (max-width: 600px) {
-    #app .project:not(.selected) .name .content {
-        font-size: 17px;
-    }
+  #app .project.selected.noted > .notes .content {
+    font-size: 17px;
+  }
+}
+
+#app .project.noted > .notes .content {
+  line-height: normal;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  #app .project:not(.selected) .name .content {
+    font-size: 17px;
+  }
 }
 
 #app .project.checkmark a.bullet {
-    opacity: 0;
+  opacity: 0;
 }
 
 #app .board .boardColumn {
-    flex-basis: 420px;
+  flex-basis: 420px;
 }
 
 #app .board .boardColumn {
-    flex-basis: 420px;
+  flex-basis: 420px;
 }
 
-#app .header .breadcrumbs>a {
-    text-overflow: ellipsis;
+#app .header .breadcrumbs > a {
+  text-overflow: ellipsis;
 }
 
 #app .header {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-#app .bullet+.prefix:has(svg) {
-    margin-left: -1.4em;
+#app .bullet + .prefix:has(svg) {
+  margin-left: -1.4em;
 }
 
 @media only screen and (max-width: 600px) {
-    #app .bullet+.prefix:has(svg) {
-        margin-left: -1.6em;
-        margin-top: 0.25em;
-    }
+  #app .bullet + .prefix:has(svg) {
+    margin-left: -1.6em;
+    margin-top: 0.25em;
+  }
 }
 
 /* date ”pills” */
 #app [startyear][startmonth][startday] {
-    margin: 0;
+  margin: 0;
 }
 
-#app [startyear][startmonth][startday]>span.content-wrapper {
-    background: transparent;
-    text-decoration: underline;
-    text-decoration-style: dotted;
-    color: inherit !important;
-    font: inherit !important;
-    padding: 0;
+#app [startyear][startmonth][startday] > span.content-wrapper {
+  background: transparent;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  color: inherit !important;
+  font: inherit !important;
+  padding: 0;
 }
 
 #app .commentHoverButton {
-    display: none;
+  display: none;
 }
 
 .item-checkbox {
-    margin-top: 3px;
-    margin-left: -1px;
+  margin-top: 3px;
+  margin-left: -1px;
 }
 
 .item-checkbox.checked {
-    opacity: 1 !important;
-    color: #b1b3b5;
+  opacity: 1 !important;
+  color: #b1b3b5;
 }
 
 @media only screen and (max-width: 600px) {
-    .item-checkbox {
-        margin-top: -6px;
-        margin-left: 2px;
-    }
+  .item-checkbox {
+    margin-top: -6px;
+    margin-left: 2px;
+  }
 }
 
 .dialog-box .toggle-switch {
-    margin-top: 3px;
+  margin-top: 3px;
 }

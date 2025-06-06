@@ -2,9 +2,9 @@
 .mw-body-content dl,
 .mw-body-content ol,
 .mw-body-content ul {
-    max-width: 45em;
+  max-width: 45em;
 }
 
 body.mediawiki {
-    font-size: 18px;
+  font-size: 18px;
 }

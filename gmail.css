@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya:400,400i,700,700i');
+@import url("https://fonts.googleapis.com/css?family=Alegreya:400,400i,700,700i");
 
 /* FacileThings Blog Newsletter fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Open+Sans&display=swap");
 
 /* FacileThings Blog Newsletter BEGIN */
 
 [style*="Fira Sans"][style*="color:#021608"] {
-    font-size: 13px !important;
+  font-size: 13px !important;
 }
 
 [style*="Fira Sans"][style*="color:#021608"] a {
-    text-decoration: underline;
-    font-weight: 400;
+  text-decoration: underline;
+  font-weight: 400;
 }
 
 /* FacileThings Blog Newsletter END */
@@ -25,27 +25,26 @@
 
 /* Keep the reply form growing out of the viewport when content asks for it. */
 table.aoP.HM {
-    max-width: 800px;
-    overflow: visible;
+  max-width: 800px;
+  overflow: visible;
 }
 
 /* hide the right side-bar */
 [style="width: 56px; min-width: 56px;"] {
-    min-width: 0 !important;
-    overflow: hidden;
-    width: 0 !important;
+  min-width: 0 !important;
+  overflow: hidden;
+  width: 0 !important;
 }
 
 /* message list */
 .aeF {
-    min-height: 100vh !important;
+  min-height: 100vh !important;
 }
-
 
 /* Message body */
 .a3s.aiL {
-    max-width: 44em;
-    overflow: visible;
+  max-width: 44em;
+  overflow: visible;
 }
 
 /* Abraham-Hicks newsletter */
@@ -54,21 +53,20 @@ div[style*="background-color:#69c7c5"] table,
 div[style*="background-color:#69c7c5"] td,
 div[style*="background-color:#69c7c5"] hr,
 div[style*="background-color:#69c7c5"] center {
-    padding: 0 !important;
-    text-align: left !important;
-    border-width: 0 !important;
-    background-color: transparent !important;
+  padding: 0 !important;
+  text-align: left !important;
+  border-width: 0 !important;
+  background-color: transparent !important;
 }
 
 div[style*="background-color:#69c7c5"] *[style*="font-family:"] {
-    font-family: Alegreya !important;
-    font-size: 14px !important;
+  font-family: Alegreya !important;
+  font-size: 14px !important;
 }
 
 div[style*="background-color:#69c7c5"] [id$="templatePreheader"],
 div[style*="background-color:#69c7c5"] [id$="templateHeader"],
 div[style*="background-color:#69c7c5"] [id$="templateFooter"],
-div[style*="background-color:#69c7c5"] [class*="bodyContainer"]>table:not(:first-of-type) {
-    display: none;
+div[style*="background-color:#69c7c5"] [class*="bodyContainer"] > table:not(:first-of-type) {
+  display: none;
 }
-
