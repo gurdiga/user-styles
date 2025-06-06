@@ -244,3 +244,7 @@
         margin-left: 2px;
     }
 }
+
+.dialog-box .toggle-switch {
+    margin-top: 3px;
+}
