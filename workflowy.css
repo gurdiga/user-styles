@@ -247,6 +247,11 @@
   }
 }
 
+.dialog-box {
+  font-size: 1rem;
+  font-family: system-ui;
+}
+
 .dialog-box .toggle-switch {
   margin-top: 3px;
 }
