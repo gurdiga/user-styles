@@ -247,6 +247,7 @@
   }
 }
 
+.text-xs.flyout.text-on-surface, /* Create/edit link dialog */
 .dialog-box {
   font-size: 1rem;
   font-family: system-ui;
