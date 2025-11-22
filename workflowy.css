@@ -44,8 +44,12 @@
 }
 
 @media (prefers-color-scheme: dark) {
+  :root {
+    --us-bg: #1f2020;
+  }
+
   body {
-    background: #1f2020 !important;
+    background: var(--us-bg) !important;
   }
 
   ::selection {
@@ -228,6 +232,11 @@
 
 #app .commentHoverButton {
   display: none;
+}
+
+#app .leftBar > div {
+  background-color: var(--us-bg);
+  filter: brightness(1.3);
 }
 
 .item-checkbox {
