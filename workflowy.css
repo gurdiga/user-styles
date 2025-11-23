@@ -64,6 +64,11 @@
     background: #1d1e1f !important;
   }
 
+  #app .leftBar > div {
+    background-color: var(--us-bg);
+    filter: brightness(1.3);
+  }
+
   body,
   #app .project .bullet {
     color: #b9b9b6 !important;
@@ -232,11 +237,6 @@
 
 #app .commentHoverButton {
   display: none;
-}
-
-#app .leftBar > div {
-  background-color: var(--us-bg);
-  filter: brightness(1.3);
 }
 
 .item-checkbox {
