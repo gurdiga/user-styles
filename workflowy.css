@@ -15,6 +15,33 @@
   size-adjust: 120%;
 }
 
+@media only screen and (max-width: 600px) {
+  /* Load Bookerly assets only on small screens to avoid desktop downloads. */
+  @font-face {
+    font-family: "Bookerly";
+    src: url(https://gurdiga.com/assets/bookerly/Bookerly-Regular.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Bookerly";
+    font-weight: bold;
+    src: url(https://gurdiga.com/assets/bookerly/Bookerly-Bold.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Bookerly";
+    font-style: italic;
+    src: url(https://gurdiga.com/assets/bookerly/Bookerly-RegularItalic.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Bookerly";
+    font-weight: bold;
+    font-style: italic;
+    src: url(https://gurdiga.com/assets/bookerly/Bookerly-BoldItalic.ttf) format("truetype");
+  }
+}
+
 #app a.contentLink {
   color: #4baddf !important;
 }
