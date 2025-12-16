@@ -144,16 +144,10 @@
   text-transform: lowercase;
 }
 
-#app .project .bullet {
-  top: 0.1em;
-}
-
+#app .project .bullet,
+#app .project .expand,
 #app .project .itemMenu {
-  top: 0.4em;
-}
-
-#app .project .expand {
-  top: 0.5em;
+  top: 0.1em;
 }
 
 @media only screen and (max-width: 600px) {
