@@ -19,26 +19,26 @@
   /* Load Bookerly assets only on small screens to avoid desktop downloads. */
   @font-face {
     font-family: "Bookerly";
-    src: url(https://gurdiga.com/assets/bookerly/Bookerly-Regular.ttf) format("truetype");
+    src: url(https://cdn.prod.website-files.com/577a2484280cf6ac333b28c8/69ada7387cdee786dd202479_Bookerly-Regular.ttf) format("truetype");
   }
 
   @font-face {
     font-family: "Bookerly";
     font-weight: bold;
-    src: url(https://gurdiga.com/assets/bookerly/Bookerly-Bold.ttf) format("truetype");
+    src: url(https://cdn.prod.website-files.com/577a2484280cf6ac333b28c8/69ada738209a3b56e389753f_Bookerly-Bold.ttf) format("truetype");
   }
 
   @font-face {
     font-family: "Bookerly";
     font-style: italic;
-    src: url(https://gurdiga.com/assets/bookerly/Bookerly-RegularItalic.ttf) format("truetype");
+    src: url(https://cdn.prod.website-files.com/577a2484280cf6ac333b28c8/69ada7385a166df842bbd8c1_Bookerly-RegularItalic.ttf) format("truetype");
   }
 
   @font-face {
     font-family: "Bookerly";
     font-weight: bold;
     font-style: italic;
-    src: url(https://gurdiga.com/assets/bookerly/Bookerly-BoldItalic.ttf) format("truetype");
+    src: url(https://cdn.prod.website-files.com/577a2484280cf6ac333b28c8/69ada7389974425d4bbace3a_Bookerly-BoldItalic.ttf) format("truetype");
   }
 }
 
@@ -81,8 +81,7 @@
     border-left-color: #42484b;
   }
 
-  #app a.contentLink[href^="https://workflowy.com"]
-  {
+  #app a.contentLink[href^="https://workflowy.com"] {
     color: #76a9fa !important;
   }
 
@@ -96,8 +95,7 @@
     border-left-color: #eceef0;
   }
 
-  #app a.contentLink[href^="https://workflowy.com"]
-  {
+  #app a.contentLink[href^="https://workflowy.com"] {
     color: #1c64f2 !important;
   }
 
