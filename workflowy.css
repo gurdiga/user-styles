@@ -5,6 +5,7 @@
   font-weight: 500;
   font-display: swap;
   src: url(https://fonts.gstatic.com/l/font?kit=4UaBrEBBsBhlBjvfkRLjza_B4ql5GzJ0DWIdyr2egMIPAg&skey=a67f3093e1ad2d69&v=v39) format("woff2");
+  size-adjust: 120%;
 }
 @font-face {
   font-family: "Alegreya";
@@ -12,6 +13,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(https://fonts.gstatic.com/l/font?kit=4UaBrEBBsBhlBjvfkRLjza_B4ql5GzJ0DWIdyr2egMIPAg&skey=a67f3093e1ad2d69&v=v39) format("woff2");
+  size-adjust: 120%;
 }
 
 @media only screen and (max-width: 600px) {
