@@ -1,8 +1,8 @@
-/* https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap&text=0123456789%E2%82%AC */
+/* https://fonts.googleapis.com/css2?family=Alegreya:wght@500;700&display=swap&text=0123456789%E2%82%AC */
 @font-face {
   font-family: "Alegreya";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-display: swap;
   src: url(https://fonts.gstatic.com/l/font?kit=4UaBrEBBsBhlBjvfkRLjza_B4ql5GzJ0DWIdyr2egMIPAg&skey=a67f3093e1ad2d69&v=v39) format("woff2");
 }
