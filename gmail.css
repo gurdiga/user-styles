@@ -70,3 +70,8 @@ div[style*="background-color:#69c7c5"] [id$="templateFooter"],
 div[style*="background-color:#69c7c5"] [class*="bodyContainer"] > table:not(:first-of-type) {
   display: none;
 }
+
+.a3s,
+body {
+  font-family: system-ui, inherit !important;
+}
