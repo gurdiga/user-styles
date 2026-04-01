@@ -261,3 +261,19 @@
 .dialog-box .toggle-switch {
   margin-top: 3px;
 }
+
+s {
+  text-decoration: none;
+  position: relative;
+}
+
+s *::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 58%;
+  height: 2px;
+  background: currentColor;
+  opacity: 0.8;
+}
