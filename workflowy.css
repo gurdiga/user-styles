@@ -223,12 +223,12 @@
 }
 
 #app [startyear][startmonth][startday] > span.content-wrapper {
-  background: transparent;
-  text-decoration: underline;
-  text-decoration-style: dotted;
+  background: transparent !important;
+  text-decoration: underline !important;
+  text-decoration-style: dotted !important;
   color: inherit !important;
   font: inherit !important;
-  padding: 0;
+  padding: 0 !important;
 }
 
 #app .commentHoverButton {
