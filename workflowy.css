@@ -16,7 +16,6 @@
   size-adjust: 120%;
 }
 
-
 #app a.contentLink {
   color: #4baddf !important;
 }
@@ -250,4 +249,8 @@ s *::after {
   height: 2px;
   background: currentColor;
   opacity: 0.8;
+}
+
+code:only-child {
+  display: inline-block;
 }
