@@ -21,10 +21,16 @@
 
 /* BNM Newsletter BEGIN */
 
-table:has(img[alt="Logo Banca Nationala a Moldovei"]) a[style^="font-size:24px"] {
-  font-family: Bookerly !important;
-  font-weight: bold;
-  text-decoration-color: lightgray;
+table:has(img[alt="Logo Banca Nationala a Moldovei"]) {
+  & a[style^="font-size:24px"] {
+    font-family: Bookerly !important;
+    font-weight: bold;
+    text-decoration-color: lightgray;
+  }
+
+  & p {
+    font-size: 14px;
+  }
 }
 
 /* BNM Newsletter END */
