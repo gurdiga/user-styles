@@ -20,6 +20,11 @@
   color: #4baddf !important;
 }
 
+#app .project.open .children {
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --us-bg: #1f2020;
@@ -53,8 +58,6 @@
 
   #app .project.open .children {
     border-left-color: #42484b !important;
-    margin-top: 4px;
-    margin-bottom: 8px;
   }
 
   #app a.contentLink[href^="https://workflowy.com"] {
