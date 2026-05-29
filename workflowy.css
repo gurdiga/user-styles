@@ -83,10 +83,13 @@
   }
 }
 
+#app {
+  font-size: 17px;
+}
+
 #app * {
   font-family: Alegreya, Bookerly !important;
   font-variant-numeric: oldstyle-nums slashed-zero !important;
-  font-size: 17px;
 }
 
 #app .pageContainer {
