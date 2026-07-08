@@ -134,6 +134,10 @@
   #app .project .bullet {
     top: 0.3em;
   }
+
+  #app .project .name:not(.selected) {
+    --name-font-size: 19px !important;
+  }
 }
 
 #app .project:not(.selected).done .notes .content {
