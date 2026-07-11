@@ -118,6 +118,19 @@
   #app .page {
     margin-top: -25px !important;
   }
+
+  #app .tab-bar {
+    width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    left: 15px !important;
+    bottom: 33px !important; /* keeps Safari address-bar transparent */
+    height: 50px !important;
+    padding: 5px 0 0 6px !important;
+    opacity: 50% !important;
+  }
 }
 
 #app .project {
