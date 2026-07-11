@@ -110,6 +110,16 @@
   margin-top: 0 !important;
 }
 
+@media only screen and (max-width: 600px) {
+  #app .topBar {
+    position: relative !important;
+  }
+
+  #app .page {
+    margin-top: -25px !important;
+  }
+}
+
 #app .project {
   margin-bottom: 4px;
 }
