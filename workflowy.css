@@ -131,6 +131,11 @@
     padding: 5px 0 0 6px !important;
     opacity: 50% !important;
   }
+
+  #app .MobileBreadcrumbs * {
+    font-family: system-ui !important;
+    font-style: normal !important;
+  }
 }
 
 #app .project {
