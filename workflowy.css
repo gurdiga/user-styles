@@ -174,7 +174,7 @@
 }
 
 #app .project.selected.noted > .notes .content {
-  color: var(--wf-text-primary);
+  color: var(--wf-text-primary) !important;
   font-size: 15px;
 }
 
