@@ -191,10 +191,6 @@
   flex-basis: 420px;
 }
 
-#app .board .boardColumn {
-  flex-basis: 420px;
-}
-
 #app .header .breadcrumbs > a {
   text-overflow: ellipsis;
 }
