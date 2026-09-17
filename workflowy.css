@@ -77,10 +77,6 @@
   #app a.contentLink[href^="https://workflowy.com"] {
     color: #1c64f2 !important;
   }
-
-  #app .project.selected.noted > .notes .content {
-    color: var(--wf-text-primary);
-  }
 }
 
 #app {
@@ -178,7 +174,7 @@
 }
 
 #app .project.selected.noted > .notes .content {
-  color: inherit;
+  color: var(--wf-text-primary);
   font-size: 15px;
 }
 
