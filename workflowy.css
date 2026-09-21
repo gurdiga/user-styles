@@ -115,17 +115,20 @@
     margin-top: -25px !important;
   }
 
+  /* Floating button */
   #app .tab-bar {
     width: 50px;
     overflow: hidden;
     border-radius: 50%;
     display: block !important;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
     left: 15px !important;
     bottom: 33px !important; /* keeps Safari address-bar transparent */
     height: 50px !important;
-    padding: 5px 0 0 6px !important;
-    opacity: 50% !important;
+    padding: 7px 0 0 6px !important;
+    background-color: rgba(255, 255, 255, 0.1) !important; /* Required for the effect to show */
+    -webkit-backdrop-filter: blur(10px); /* Safari compatibility */
+    backdrop-filter: blur(10px); /* Standard property */
   }
 
   #app .MobileBreadcrumbs * {
